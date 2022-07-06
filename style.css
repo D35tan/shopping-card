@@ -1,0 +1,116 @@
+html {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.wrapper {
+  margin: 0;
+  width: 350px;
+  height: 600px;
+  border: 2px transparent;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: relative;
+}
+img {
+  box-sizing: content-box;
+  width: 350px;
+  height: auto;
+  overflow: hidden;
+  _position: absolute;
+}
+.transition {
+  background-color: black;
+  height: 100px;
+  position: absolute;
+}
+.image {
+  font-size: 0.5rem;
+}
+
+.container {
+  margin: 0;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  height: 160px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  font-size: 0.8rem;
+  max-width: 43ch;
+  padding: 10px;
+}
+.model {
+  font-weight: 600;
+  font-size: 1rem;
+}
+.desc-text {
+  color: grey;
+}
+.price-tag {
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  padding-block: 0.5rem;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+}
+.selections {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  justify-content: space-between;
+}
+.colors {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  align-items: center;
+  gap: 0.4rem;
+}
+.green-black {
+  background-image: linear-gradient(90deg, rgb(4, 179, 4) 50%, black 50%);
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.blue-black {
+  background-image: linear-gradient(90deg, rgb(74, 128, 243) 50%, black 50%);
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.red-black {
+  background-image: linear-gradient(90deg, rgb(223, 30, 104) 50%, black 50%);
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.add-button {
+  background-color: rgb(45, 45, 160);
+  color: white;
+  padding-block: 0.5rem;
+  border: 2px solid rgb(45, 45, 160);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+.add-button:active {
+  background-color: rgb(108, 108, 217);
+  border: 2px solid rgb(108, 108, 217);
+}
