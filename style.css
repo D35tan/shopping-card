@@ -4,6 +4,12 @@ html {
   font-size: 16px;
   background-color: rgba(0, 0, 0, 0.1);
 }
+body {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  gap: 1rem;
+}
 .wrapper {
   margin: 0;
   width: 350px;
@@ -13,6 +19,7 @@ html {
   background-color: rgba(255, 255, 255, 0.75);
   position: relative;
   overflow: hidden;
+  box-shadow: 0.5rem 0.5rem 8px rgba(100, 100, 100, 0.5);
 }
 img {
   box-sizing: content-box;
@@ -122,6 +129,27 @@ section {
   align-items: center;
   gap: 0.4rem;
 }
+.blue {
+  background-color: rgb(74, 128, 243);
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.red {
+  background-color: rgb(223, 30, 104);
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.black {
+  background-color: black;
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
 .green-black {
   background-image: linear-gradient(90deg, rgb(4, 179, 4) 50%, black 50%);
   height: 18px;
@@ -138,6 +166,20 @@ section {
 }
 .red-black {
   background-image: linear-gradient(90deg, rgb(223, 30, 104) 50%, black 50%);
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.red-white {
+  background-image: linear-gradient(90deg, rgb(223, 30, 104) 50%, white 50%);
+  height: 18px;
+  width: 18px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.black-white {
+  background-image: linear-gradient(90deg, black 50%, white 50%);
   height: 18px;
   width: 18px;
   border: 1px solid white;
